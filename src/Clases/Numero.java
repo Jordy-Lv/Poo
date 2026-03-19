@@ -8,25 +8,23 @@ public class Numero {
 
 
     //Setter
-    public void setValor(int valor){
+    public void setValor(int valor) {
 
         this.valor = valor;
 
     }
 
     //Getter
-    public int getValor(){
+    public int getValor() {
 
         return valor;
     }
 
     //Getter boolean
-    public boolean esPar(){
+    public boolean esPar() {
 
         return valor % 2 == 0;
     }
-
-
 
     public static void main(String[] args) {
 
@@ -34,8 +32,6 @@ public class Numero {
 
         n.setValor(4);
         System.out.println(n.esPar());
-
-
 
 
     }
